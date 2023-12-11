@@ -16,15 +16,61 @@
       }
 
       body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
+        background-image: linear-gradient(to right, #cb2d3e, #ef473a);
+      }
 
+      .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background: #2f3640;
+        height: 40px;
+        border-radius: 40px;
+        padding: 10px;
+      }
+
+      .box:hover > .input {
+        width: 240px;
+        padding: 0 6px;
+      }
+
+      .box:hover > .searchButton {
+        background: white;
+        color: #2f3640;
+      }
+
+      .button {
+        color: white;
+        float: right;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #2f3640;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+      }
+
+      .input {
+        border: none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: white;
+        font-size: 20px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 0px;
+      }
+
+      @media screen and (max-width: 620px) {
+        .searchBox:hover > .searchInput {
+          width: 140px;
+          padding: 0 6px;
+        }
       }
     </style>
     <link
