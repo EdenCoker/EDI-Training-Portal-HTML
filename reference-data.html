@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Reference-data - EDI Training Portal</title>
+    <meta property="og:title" content="Reference-data - EDI Training Portal" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./reference-data.css" rel="stylesheet" />
+
+      <div class="reference-data-container">
+        <div class="header-container header-root-class-name7">
+          <header data-thq="thq-navbar" class="header-navbar-interactive">
+            <a href="index.html" class="header-navlink">
+              <img
+                alt="image"
+                src="public/external/edi%20logo%20small-1500h.png"
+                class="header-image"
+              />
+            </a>
+            <a href="department-select.html" class="header-navlink1">
+              <span>Getting Started</span>
+            </a>
+            <a
+              href="https://www.exchange-data.com/about-us/"
+              class="header-link"
+            >
+              <span>About</span>
+            </a>
+            <span class="header-text"><span>Pricing</span></span>
+            <span class="header-text1"><span>Team</span></span>
+            <span class="header-text2"><span>Blog</span></span>
+            <div class="header-container1">
+              <div data-thq="thq-navbar-nav" class="header-desktop-menu"></div>
+              <nav class="header-links"></nav>
+            </div>
+            <input
+              type="text"
+              placeholder="Search"
+              class="header-textinput input"
+            />
+            <div data-thq="thq-burger-menu" class="header-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="header-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="header-mobile-menu">
+              <div class="header-nav">
+                <div class="header-top">
+                  <div data-thq="thq-close-menu" class="header-close-menu">
+                    <img
+                      alt="image"
+                      src="public/external/edi%20logo%20small-1500h.png"
+                      class="header-image1"
+                    />
+                  </div>
+                </div>
+                <nav class="header-links1">
+                  <span class="header-text3"><span>About</span></span>
+                  <span class="header-text4"><span>Features</span></span>
+                  <span class="header-text5"><span>Pricing</span></span>
+                  <span class="header-text6"><span>Team</span></span>
+                  <span class="header-text7"><span>Blog</span></span>
+                </nav>
+                <div class="header-buttons">
+                  <button class="header-login button">
+                    <span>Login</span>
+                  </button>
+                  <button class="button"><span>Register</span></button>
+                </div>
+              </div>
+              <div>
+                <svg viewBox="0 0 950.8571428571428 1024" class="header-icon2">
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path></svg
+                ><svg viewBox="0 0 877.7142857142857 1024" class="header-icon4">
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path></svg
+                ><svg viewBox="0 0 602.2582857142856 1024" class="header-icon6">
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </header>
+        </div>
+        <div class="reference-data-feature-card">
+          <svg viewBox="0 0 1024 1024" class="reference-data-icon">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <div class="reference-data-container1">
+            <div class="reference-data-container2">
+              <div class="reference-data-container3">
+                <h2 class="reference-data-text">
+                  Finding Financial Reference Documents
+                </h2>
+                <div class="reference-data-container4">
+                  <span class="reference-data-text001">
+                    <span>Issuer Name: Accessing Official Websites</span>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <span>
+                      When analysts need to find financial reference documents,
+                      such as prospectuses, KIIDs (Key Investor Information
+                      Documents), factsheets, annual reports, or specific
+                      announcements, it is recommended to begin by accessing the
+                      issuer's official website. Most issuers have a dedicated
+                      section on their website called "Funds," "Our Funds," or
+                      "Funds Centre," where they provide comprehensive
+                      information about their funds.
+                    </span>
+                    <br />
+                  </span>
+                </div>
+                <img
+                  alt="image"
+                  src="public/picture1-200h.png"
+                  class="reference-data-image"
+                />
+                <span class="reference-data-text009">
+                  <span>
+                    Exhibit 1.A - On Jupiter Asset Management’s website,
+                    jupiteram.com, there is a section labeled ‘Our Products’
+                    which allows you to view all of their funds.
+                  </span>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <span>
+                    Within the Funds Centre, analysts can find a collection of
+                    documents related to each fund. Alternatively, analysts can
+                    search for a specific ISIN (International Securities
+                    Identification Number) and access the summary page of that
+                    ISIN, which will retrieve all the relevant documents
+                    associated with it.
+                  </span>
+                  <br />
+                  <br />
+                </span>
+              </div>
+            </div>
+            <img
+              alt="image"
+              src="public/picture2-700w.png"
+              class="reference-data-image01"
+            />
+            <span class="reference-data-text018">
+              <span>
+                Exhibit 1.B - Jupiter’s Funds Centre lists the names of funds,
+                ISINs and documents for the user to view.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                Why is this important? By accessing the issuer's official
+                website, analysts can directly obtain the most up-to-date and
+                accurate information about the fund they are researching. This
+                ensures that they have access to the latest prospectuses, KIIDs,
+                and other important documents.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                For example, if an analyst is looking for information on a fund
+                managed by Jupiter Asset Management, they can visit Jupiter’s
+                website and navigate to the Funds Centre or search for the
+                specific ISIN of the fund they are interested in. This approach
+                guarantees access to the official and authorised documents
+                pertaining to that particular fund.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>1.2 ISIN: Identifying and Locating Documents</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                Another useful method for finding financial reference documents
+                is by utilising the ISIN. An ISIN is a unique identification
+                code assigned to a specific security or financial instrument,
+                such as a fund. It serves as a universal identifier,
+                facilitating the identification and tracking of securities
+                across various platforms and databases.
+              </span>
+              <br />
+              <br />
+            </span>
+            <img
+              alt="image"
+              src="public/picture3-700w.png"
+              class="reference-data-image02"
+            />
+            <span class="reference-data-text042">
+              <span>
+                Exhibit 1.C - In the image above, the ISIN ‘GB00BZ2YNM76’ has
+                been utilised in order to find Jupiter’s Asian Income Fund.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                For example, let's consider funds based in the United Kingdom
+                (GB). The ISINs for GB-based funds typically begin with "GB"
+                followed by a combination of letters and numbers. An example of
+                an ISIN for a GB-based fund could be GB00BZ2YNM76.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                The importance of ISINs lies in their ability to streamline the
+                search process for financial reference documents. By inputting
+                the ISIN into relevant platforms or databases, analysts can
+                quickly locate the necessary documents associated with that
+                specific fund. This saves time and ensures accuracy in
+                retrieving the required information.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>1.3 Sub Fund Name: Targeted Document Search</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                In addition to using the issuer's official website and ISINs,
+                analysts can also employ the sub fund name to find specific
+                financial reference documents. A sub fund refers to a division
+                or subset of a larger investment fund, often categorised based
+                on specific investment strategies, geographical focus, or other
+                criteria.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                To find documents using a sub fund name, analysts can begin by
+                understanding the naming conventions employed by the issuer. For
+                example, if a fund has multiple sub funds focusing on different
+                regions, the sub fund names may indicate the targeted region,
+                such as "Global Equity Fund - Asia Pacific" or "European Bond
+                Fund - High Yield."
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                By identifying the relevant sub fund name and referencing the
+                issuer's website or other financial data platforms, analysts can
+                easily locate the corresponding documents for the desired sub
+                fund. This targeted approach allows analysts to access
+                information specific to their research needs and gain a deeper
+                understanding of the particular investment area.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                For instance, if an analyst is interested in exploring the
+                "European Equity Fund - Small Cap" within a fund family, they
+                can search for this specific sub fund on the issuer's website or
+                other reputable financial databases.
+              </span>
+              <br />
+              <br />
+            </span>
+          </div>
+        </div>
+        <div class="reference-data-feature-card1">
+          <svg viewBox="0 0 1024 1024" class="reference-data-icon2">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <div class="reference-data-container5">
+            <h2 class="reference-data-text089">
+              Understanding Reference Data Fields for Non-English Country Funds
+            </h2>
+            <span class="reference-data-text090">
+              <span>
+                For funds, we rely on primary sources, such as the issuer's
+                website, to gather information from documents like the
+                prospectus, KIID, factsheets, or year-end accounts. In some
+                exceptional cases,
+              </span>
+              <br />
+              <span>
+                you may need to cross-reference publicly available sources like
+                Morningstar, FundSquare, FE Fundinfo, or the Financial Times to
+                confirm data.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>2.1 Field - Issuer Name</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                In many cases, especially in countries like France and Germany,
+                the issuer is typically the same as the management company.
+                Below, we'll illustrate this concept using Allianz
+                Internationaler Rentenfonds as an example.
+              </span>
+              <br />
+              <br />
+            </span>
+            <img
+              alt="image"
+              src="public/picture4-200w.png"
+              class="reference-data-image03"
+            />
+            <span class="reference-data-text106">
+              <span>
+                Exhibit 2.A - This above prospectus from Allianz International
+                Retenfolds shows Allianz Global Investors GmBH as a fund issuer.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                However, in some countries like Austria, Liechtenstein, and
+                Switzerland, the issuer may differ from the management company.
+                In these instances, we'll use the name provided on the first
+                page of the prospectus as the issuer's name.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>2.2 Field - Country of Incorporation</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                The country of incorporation is where the fund is established or
+                constituted. Let's examine an example from a French fund's
+                prospectus to understand this field.
+              </span>
+              <br />
+              <br />
+            </span>
+            <img
+              alt="image"
+              src="public/picture5-200w.png"
+              class="reference-data-image04"
+            />
+            <span class="reference-data-text137">
+              <br />
+              <br />
+              <span>
+                Exhibit 2.B - The image above shows the above fund was
+                established in France
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                For German funds, information about the country of incorporation
+                can be found under the "Firma, Rechtsform und Sitz" chapter in
+                the prospectus.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                Please note that the country of incorporation might differ from
+                the country of registration.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>2.3 Field - Financial Year End</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                The financial year end is a crucial detail that can be found in
+                the prospectus, the summary page of the share class, or the
+                annual report. In most cases, you can easily locate this
+                information on the summary page of the ISIN.
+              </span>
+              <span></span>
+            </span>
+            <img
+              alt="image"
+              src="public/picture6-200w.png"
+              class="reference-data-image05"
+            />
+            <span class="reference-data-text162">
+              Exhibit 2.C - The above image shows that the financial year end
+              for the ISIN ‘DE000A2P2316’ occurs on the 30th September
+            </span>
+            <img
+              alt="image"
+              src="public/picture7-200h.png"
+              class="reference-data-image06"
+            />
+            <span class="reference-data-text163">
+              <span>
+                Exhibit 2.D - The above image shows the financial year end for
+                the above fund occurs in December
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>2.4 Field - Umbrella Name</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                Funds can be established as standalone entities or as part of an
+                umbrella construction with multiple sub-funds. This field is not
+                mandatory, meaning it can remain empty if a fund is not part of
+                an umbrella structure. To determine if a fund falls under an
+                umbrella construction, you'll need to refer to the prospectus.
+              </span>
+              <br />
+              <br />
+            </span>
+            <img
+              alt="image"
+              src="public/picture8-200h.png"
+              class="reference-data-image07"
+            />
+            <span class="reference-data-text183">
+              <span>
+                Exhibit 2.E - The above image shows that the Evelyn Global
+                Defensive Portfolio fund is a part of the Evelyn Partners UCITS
+                ICAV umbrella.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>2.5 Field - Fund Type</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                Funds can be categorised as either UCITS or AIFs. Typically,
+                open-ended funds are set up as UCITS. However, Liechtenstein has
+                a unique fund type known as Other Investment Undertakings (IU),
+                which includes four specific categories: IU for single
+                investors, IU for families, IU for interest groups, and IU for
+                affiliated groups. This information is easily accessible on the
+                first page of a prospectus or in KIIDs/factsheets.
+              </span>
+              <br />
+              <br />
+            </span>
+            <img
+              alt="image"
+              src="public/picture9-200h.png"
+              class="reference-data-image08"
+            />
+            <span class="reference-data-text197">
+              <span>
+                Exhibit 2.F - The above image shows a prospectus for an OPCVM
+                (Other Investment Undertakings)
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>2.6 Field - Legal Structure</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                The legal structure of a fund is usually on the first page of
+                the prospectus. In some cases, you may find it in sections like
+                "Grundlagen." Different countries have distinct legal structures
+                for retail funds:
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                ● Germany: Limited Partnerships, Investment stock corporations
+                with variable capital (Investmentaktiengesellschaft mit
+                veränderlichem Kapital), and Contractual investment funds
+                (Sondervermögen).
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                ● France: Contractual Investment Fund or Fonds Communs de
+                Placement (FCP) and Open-ended investment companies or Sociétés
+                d'Investissement à Capital Variable (SICAV).
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                ● Austria: Contractual investment funds (Sondervermögen).
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                ● Switzerland: Contractual Investment Fund (FCP) and SICAV.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                ● Belgium: Contractual Investment Fund (FCP) and Société
+                d'investissement (SICAV).
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                ● Liechtenstein: Contractual Investment Fund (FCP), SICAV, Trust
+                form (collective trusteeship), and Limited partnerships (for
+                AIFs).
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+            </span>
+            <img
+              alt="image"
+              src="public/picture10-200h.png"
+              class="reference-data-image09"
+            />
+            <span class="reference-data-text245">
+              <span>
+                Exhibit 2.G - The above image shows the legal structure on the
+                first page of this French fund, with the legal structure being
+                Fonds Commun de Placement
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>2.7 Field - Country of Register</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                The country of registration is derived from the country code
+                within the ISIN, such as DE for Germany, FR for France, IE for
+                Ireland, and so on.
+              </span>
+              <br />
+              <br />
+            </span>
+            <img
+              alt="image"
+              src="public/picture11-200h.png"
+              class="reference-data-image10"
+            />
+            <span class="reference-data-text271">
+              <span>
+                Exhibit 2.H - The above image shows 5 different ISINs for
+                Vanguard funds, one starting with IE and the other starting with
+                GB. This shows Ireland (IE) as a country of registration and
+                Great Britain (GB) as a country of registration.
+              </span>
+              <br />
+              <br />
+              <span></span>
+              <br />
+              <br />
+              <span>2.8 Field - Management Company Name and Address</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <span>
+                You can find the name and address of the management company in
+                the prospectus, as shown in the example below:
+              </span>
+              <br />
+              <br />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

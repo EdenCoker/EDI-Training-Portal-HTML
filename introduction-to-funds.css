@@ -1,0 +1,1270 @@
+.header-container {
+  display: flex;
+  position: relative;
+}
+.header-navbar-interactive {
+  width: 100%;
+  display: flex;
+  padding: 3%;
+  align-items: center;
+  padding-top: 4%;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+  justify-content: space-between;
+}
+.header-navlink {
+  display: contents;
+}
+.header-image {
+  width: 122px;
+  height: 36px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.header-navlink1 {
+  padding-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.header-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.header-text {
+  margin-left: var(--dl-space-space-twounits);
+}
+.header-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.header-text2 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-threeunits);
+}
+.header-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.header-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.header-links {
+  flex: 1;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  padding-left: 18%;
+  padding-right: 18%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header-textinput {
+  width: 155px;
+  height: 31px;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.header-burger-menu {
+  display: none;
+}
+.header-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.header-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.header-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.header-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.header-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header-text3 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.header-text4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.header-text5 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.header-text6 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.header-text7 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.header-buttons {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.header-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.header-icon4 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.header-icon6 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.header-root-class-name {
+  width: 100%;
+}
+.header-root-class-name2 {
+  width: 100%;
+}
+
+.header-root-class-name4 {
+  width: 100%;
+}
+.header-root-class-name5 {
+  width: 100%;
+}
+.header-root-class-name6 {
+  width: 100%;
+}
+.header-root-class-name7 {
+  width: 100%;
+}
+@media(max-width: 991px) {
+  .header-image1 {
+    width: var(--dl-size-size-medium);
+  }
+}
+@media(max-width: 767px) {
+  .header-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .header-desktop-menu {
+    display: none;
+  }
+  .header-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-text3 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-text5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-text6 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-text7 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .header-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .header-textinput {
+    width: 20%;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .header-mobile-menu {
+    padding: 16px;
+  }
+}
+
+.footer-footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.footer-image {
+  width: 200px;
+  object-fit: cover;
+}
+.footer-text {
+  text-align: center;
+  line-height: 0.5;
+}
+.footer-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-link {
+  display: contents;
+}
+.footer-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.footer-link1 {
+  display: contents;
+}
+.footer-icon2 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.footer-root-class-name {
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+}
+
+.footer-root-class-name2 {
+  align-self: center;
+}
+
+@media(max-width: 767px) {
+  .footer-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .footer-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text01 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text03 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text04 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text06 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text07 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text09 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text10 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text12 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-text13 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .footer-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .footer-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text01 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text03 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text04 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text06 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text07 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text09 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text10 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text12 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-text13 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.introduction-to-funds-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.introduction-to-funds-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.introduction-to-funds-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.introduction-to-funds-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.introduction-to-funds-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.introduction-to-funds-dropdown-toggle:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.introduction-to-funds-text {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.introduction-to-funds-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.introduction-to-funds-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.introduction-to-funds-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.introduction-to-funds-text001 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.introduction-to-funds-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.introduction-to-funds-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.introduction-to-funds-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.introduction-to-funds-text002 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.introduction-to-funds-dropdown3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.introduction-to-funds-dropdown-toggle3 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.introduction-to-funds-dropdown-toggle3:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.introduction-to-funds-text003 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.introduction-to-funds-feature-card {
+  width: auto;
+  margin: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-900);
+}
+.introduction-to-funds-icon {
+  fill: var(--dl-color-gray-500);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.introduction-to-funds-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.introduction-to-funds-text004 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.introduction-to-funds-feature-card1 {
+  width: auto;
+  margin: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-900);
+}
+.introduction-to-funds-icon02 {
+  fill: var(--dl-color-gray-500);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.introduction-to-funds-container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.introduction-to-funds-text019 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.introduction-to-funds-feature-card2 {
+  width: auto;
+  margin: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-900);
+}
+.introduction-to-funds-icon04 {
+  fill: var(--dl-color-gray-500);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.introduction-to-funds-container3 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.introduction-to-funds-text042 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.introduction-to-funds-text043 {
+  width: 100%;
+}
+.introduction-to-funds-text048 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text052 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text056 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text060 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text064 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-feature-card3 {
+  width: auto;
+  margin: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-900);
+}
+.introduction-to-funds-icon06 {
+  fill: var(--dl-color-gray-500);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.introduction-to-funds-container4 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.introduction-to-funds-text067 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.introduction-to-funds-container5 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  border-color: #080475;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-700);
+}
+.introduction-to-funds-text068 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.introduction-to-funds-text077 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-feature-card4 {
+  width: auto;
+  margin: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-900);
+}
+.introduction-to-funds-container6 {
+  flex: 0 0 auto;
+  width: 2rem;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.introduction-to-funds-icon08 {
+  fill: var(--dl-color-gray-500);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.introduction-to-funds-text082 {
+  width: auto;
+  height: auto;
+  align-self: flex-start;
+}
+.introduction-to-funds-text083 {
+  font-size: 25px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.introduction-to-funds-text089 {
+  font-size: 18px;
+  font-weight: 800;
+}
+.introduction-to-funds-text090 {
+  font-size: 18px;
+  font-weight: 800;
+}
+.introduction-to-funds-text097 {
+  font-weight: 600;
+}
+.introduction-to-funds-text103 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text109 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text115 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text121 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+}
+.introduction-to-funds-text122 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+}
+.introduction-to-funds-text129 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+}
+.introduction-to-funds-text130 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+}
+.introduction-to-funds-text132 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text138 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text144 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text150 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+}
+.introduction-to-funds-text151 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+}
+.introduction-to-funds-text153 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text159 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text165 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text171 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+}
+.introduction-to-funds-text172 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+}
+.introduction-to-funds-text174 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.introduction-to-funds-text175 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.introduction-to-funds-text177 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text183 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text189 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.introduction-to-funds-text190 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.introduction-to-funds-text192 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text198 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text204 {
+  font-size: 22px;
+  font-weight: 800;
+}
+.introduction-to-funds-text205 {
+  font-size: 22px;
+  font-weight: 800;
+}
+.introduction-to-funds-text207 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.introduction-to-funds-text208 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.introduction-to-funds-text210 {
+  font-weight: 600;
+}
+.introduction-to-funds-text216 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text222 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.introduction-to-funds-text223 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.introduction-to-funds-text225 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text231 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text237 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+}
+.introduction-to-funds-text238 {
+  font-size: 22px;
+}
+.introduction-to-funds-text240 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.introduction-to-funds-text241 {
+  font-size: 18px;
+}
+.introduction-to-funds-text243 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text249 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text255 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text261 {
+  font-size: 18px;
+  font-weight: 800;
+}
+.introduction-to-funds-text262 {
+  font-size: 18px;
+  font-weight: 800;
+}
+.introduction-to-funds-text264 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-text270 {
+  font-style: normal;
+  font-weight: 600;
+}
+.introduction-to-funds-container7 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.introduction-to-funds-container8 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media(max-width: 1200px) {
+  .introduction-to-funds-text083 {
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  .introduction-to-funds-text089 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .introduction-to-funds-text090 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .introduction-to-funds-text097 {
+    font-weight: 600;
+  }
+  .introduction-to-funds-text103 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text109 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text115 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text121 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .introduction-to-funds-text122 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .introduction-to-funds-text129 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .introduction-to-funds-text130 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .introduction-to-funds-text132 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text138 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text144 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text150 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .introduction-to-funds-text151 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .introduction-to-funds-text153 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text159 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text165 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text171 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .introduction-to-funds-text172 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .introduction-to-funds-text174 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .introduction-to-funds-text175 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .introduction-to-funds-text177 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text183 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text189 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .introduction-to-funds-text190 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .introduction-to-funds-text192 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text198 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text204 {
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .introduction-to-funds-text205 {
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .introduction-to-funds-text207 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .introduction-to-funds-text208 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .introduction-to-funds-text210 {
+    font-weight: 600;
+  }
+  .introduction-to-funds-text216 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text222 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .introduction-to-funds-text223 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .introduction-to-funds-text225 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text231 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text237 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .introduction-to-funds-text238 {
+    font-size: 22px;
+  }
+  .introduction-to-funds-text240 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .introduction-to-funds-text241 {
+    font-size: 18px;
+  }
+  .introduction-to-funds-text243 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text249 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text255 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text261 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .introduction-to-funds-text262 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .introduction-to-funds-text264 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .introduction-to-funds-text270 {
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+@media(max-width: 767px) {
+  .introduction-to-funds-feature-card {
+    flex-direction: row;
+  }
+  .introduction-to-funds-container1 {
+    flex-direction: column;
+  }
+  .introduction-to-funds-feature-card1 {
+    flex-direction: row;
+  }
+  .introduction-to-funds-container2 {
+    flex-direction: column;
+  }
+  .introduction-to-funds-feature-card2 {
+    flex-direction: row;
+  }
+  .introduction-to-funds-container3 {
+    flex-direction: column;
+  }
+  .introduction-to-funds-feature-card3 {
+    flex-direction: row;
+  }
+  .introduction-to-funds-container4 {
+    flex-direction: column;
+  }
+  .introduction-to-funds-container5 {
+    flex-direction: column;
+  }
+  .introduction-to-funds-feature-card4 {
+    flex-direction: row;
+  }
+  .introduction-to-funds-container8 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .introduction-to-funds-container1 {
+    flex-direction: column;
+  }
+  .introduction-to-funds-container2 {
+    flex-direction: column;
+  }
+  .introduction-to-funds-container3 {
+    flex-direction: column;
+  }
+  .introduction-to-funds-container4 {
+    flex-direction: column;
+  }
+  .introduction-to-funds-container5 {
+    flex-direction: column;
+  }
+  .introduction-to-funds-container8 {
+    flex-direction: column;
+  }
+}

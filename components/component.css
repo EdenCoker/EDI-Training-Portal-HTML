@@ -1,0 +1,47 @@
+.app-component-container {
+  display: flex;
+  position: relative;
+}
+.app-component-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.app-component-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.app-component-text2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.app-component-text3 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.app-component-text4 {
+  margin-left: var(--dl-space-space-twounits);
+}
+@media(max-width: 767px) {
+  .app-component-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .app-component-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .app-component-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .app-component-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .app-component-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .app-component-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Introduction-to-funds - EDI Training Portal</title>
+    <meta
+      property="og:title"
+      content="Introduction-to-funds - EDI Training Portal"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./introduction-to-funds.css" rel="stylesheet" />
+
+      <div class="introduction-to-funds-container">
+        <div class="header-container header-root-class-name2">
+          <header data-thq="thq-navbar" class="header-navbar-interactive">
+            <a href="index.html" class="header-navlink">
+              <img
+                alt="image"
+                src="public/external/edi%20logo%20small-1500h.png"
+                class="header-image"
+              />
+            </a>
+            <a href="department-select.html" class="header-navlink1">
+              <span>Getting Started</span>
+            </a>
+            <a
+              href="https://www.exchange-data.com/about-us/"
+              class="header-link"
+            >
+              <span>About</span>
+            </a>
+            <span class="header-text"><span>Pricing</span></span>
+            <span class="header-text1"><span>Team</span></span>
+            <span class="header-text2"><span>Blog</span></span>
+            <div class="header-container1">
+              <div data-thq="thq-navbar-nav" class="header-desktop-menu"></div>
+              <nav class="header-links"></nav>
+            </div>
+            <input
+              type="text"
+              placeholder="Search"
+              class="header-textinput input"
+            />
+            <div data-thq="thq-burger-menu" class="header-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="header-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="header-mobile-menu">
+              <div class="header-nav">
+                <div class="header-top">
+                  <div data-thq="thq-close-menu" class="header-close-menu">
+                    <img
+                      alt="image"
+                      src="public/external/edi%20logo%20small-1500h.png"
+                      class="header-image1"
+                    />
+                  </div>
+                </div>
+                <nav class="header-links1">
+                  <span class="header-text3"><span>About</span></span>
+                  <span class="header-text4"><span>Features</span></span>
+                  <span class="header-text5"><span>Pricing</span></span>
+                  <span class="header-text6"><span>Team</span></span>
+                  <span class="header-text7"><span>Blog</span></span>
+                </nav>
+                <div class="header-buttons">
+                  <button class="header-login button">
+                    <span>Login</span>
+                  </button>
+                  <button class="button"><span>Register</span></button>
+                </div>
+              </div>
+              <div>
+                <svg viewBox="0 0 950.8571428571428 1024" class="header-icon2">
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path></svg
+                ><svg viewBox="0 0 877.7142857142857 1024" class="header-icon4">
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path></svg
+                ><svg viewBox="0 0 602.2582857142856 1024" class="header-icon6">
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </header>
+        </div>
+        <div
+          data-thq="thq-dropdown"
+          class="introduction-to-funds-thq-dropdown list-item"
+        >
+          <ul
+            data-thq="thq-dropdown-list"
+            class="introduction-to-funds-dropdown-list"
+          >
+            <li
+              data-thq="thq-dropdown"
+              class="introduction-to-funds-dropdown list-item"
+            >
+              <div
+                data-thq="thq-dropdown-toggle"
+                class="introduction-to-funds-dropdown-toggle"
+              >
+                <span class="introduction-to-funds-text">History of funds</span>
+              </div>
+            </li>
+            <li
+              data-thq="thq-dropdown"
+              class="introduction-to-funds-dropdown1 list-item"
+            >
+              <div
+                data-thq="thq-dropdown-toggle"
+                class="introduction-to-funds-dropdown-toggle1"
+              >
+                <span class="introduction-to-funds-text001">
+                  What is a Fund
+                </span>
+              </div>
+            </li>
+            <li
+              data-thq="thq-dropdown"
+              class="introduction-to-funds-dropdown2 list-item"
+            >
+              <div
+                data-thq="thq-dropdown-toggle"
+                class="introduction-to-funds-dropdown-toggle2"
+              >
+                <span class="introduction-to-funds-text002">
+                  Involved Parties in a fund
+                </span>
+              </div>
+            </li>
+            <li
+              data-thq="thq-dropdown"
+              class="introduction-to-funds-dropdown3 list-item"
+            >
+              <div
+                data-thq="thq-dropdown-toggle"
+                class="introduction-to-funds-dropdown-toggle3"
+              >
+                <span class="introduction-to-funds-text003">
+                  Life Cycle of a fund
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="introduction-to-funds-feature-card">
+          <svg viewBox="0 0 1024 1024" class="introduction-to-funds-icon">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <div class="introduction-to-funds-container1">
+            <h2 class="introduction-to-funds-text004">History of Funds</h2>
+            <span>
+              <span>
+                ​The history of funds dates back to the 18th century,
+                specifically in 1602, when the Dutch East India Company issued
+                the first publicly traded shares. However, the modern fund
+                industry, as we know it today, emerged in the early 20th century
+                with the introduction of the mutual fund.In 1924, the
+                Massachusetts Investors Trust, the first open-end mutual fund,
+                was launched in the United States. This marked a significant
+                milestone in the development of funds.&nbsp;
+              </span>
+              <br />
+              <br />
+              <span>
+                The concept behind mutual funds involved pooling money from
+                multiple investors to create a diversified portfolio of
+                securities. This approach allowed investors with limited capital
+                to access a broader range of investment opportunities.The mutual
+                fund industry experienced rapid growth in the following decades
+                as more investors recognised the benefits of this investment
+                vehicle. By pooling resources together, individuals could
+                achieve greater diversification and have their investments
+                professionally managed by fund managers. This allowed investors
+                to participate in various asset classes, including stocks,
+                bonds, and other securities, without having to individually
+                select and manage each investment.
+              </span>
+              <br />
+              <br />
+              <span>
+                In the 1990s, a new type of fund called exchange-traded funds
+                (ETFs) was introduced in Canada. ETFs provided investors with a
+                more flexible and cost-effective way to invest in a diversified
+                portfolio of securities. Like mutual funds, ETFs pool money from
+                multiple investors, but they differ in the way they are bought
+                and sold on stock exchanges. ETFs can be traded throughout the
+                day, similar to individual stocks, whereas mutual funds are
+                typically bought and sold at the end of the trading day at the
+                net asset value (NAV) price.The introduction of ETFs expanded
+                the options available to investors, providing them with greater
+                flexibility and control over their investment strategies.&nbsp;
+              </span>
+              <br />
+              <br />
+              <span>
+                ETFs gained popularity in the 1990s and 2000s, offering
+                advantages such as lower expense ratios, tax efficiency, and the
+                ability to trade intraday. Today, ETFs have become a major
+                segment of the fund industry, with a wide range of options
+                available to investors seeking diversified investment exposure
+                across various asset classes, sectors, and regions.To summarise,
+                the history of funds can be traced back to the 18th century, but
+                the modern fund industry emerged in the early 20th century with
+                the mutual fund. The introduction of mutual funds allowed
+                investors to pool their money and access diversified portfolios
+                managed by professionals.&nbsp;
+              </span>
+              <br />
+              <br />
+              <span>
+                The subsequent development of ETFs in the 1990s provided
+                investors with additional choices and advantages in terms of
+                flexibility and cost-effectiveness. Together, mutual funds and
+                ETFs have revolutionised the way individuals invest and have
+                become integral components of the fund industry.
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="introduction-to-funds-feature-card1">
+          <svg viewBox="0 0 1024 1024" class="introduction-to-funds-icon02">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <div class="introduction-to-funds-container2">
+            <h2 class="introduction-to-funds-text019">What is a Fund</h2>
+            <span>
+              <span>
+                ​A fund is a financial vehicle that allows multiple investors to
+                pool their money together to create a diversified portfolio of
+                assets. These assets can include stocks, bonds, or other types
+                of securities. The fund is overseen and managed by a
+                professional investment manager or team who are responsible for
+                making investment decisions on behalf of the investors.
+              </span>
+              <br />
+              <br />
+              <span>
+                The primary objective of a fund is to generate a return on
+                investment for the investors. This return can be realised
+                through various means, such as capital gains from the
+                appreciation in the value of the fund's assets, dividends
+                received from the underlying securities, or interest payments
+                from bonds or other fixed-income instruments held by the fund.
+              </span>
+              <br />
+              <br />
+              <span>
+                There are different types of funds available to investors, each
+                with its own structure and characteristics. Some common types
+                include open-end funds, closed-end funds, and exchange-traded
+                funds (ETFs).
+              </span>
+              <br />
+              <br />
+              <span>
+                Open-end funds are the most prevalent type of fund. These funds
+                issue an unlimited number of shares to investors and are
+                continuously open for new investments and redemptions. Investors
+                can buy and sell shares directly from the fund company at the
+                net asset value (NAV) price, which represents the value of the
+                fund's underlying assets divided by the number of shares
+                outstanding.
+              </span>
+              <br />
+              <br />
+              <span>
+                Closed-end funds, on the other hand, have a fixed number of
+                shares that are typically bought and sold on a stock exchange.
+                Unlike open-end funds, closed-end funds do not issue or redeem
+                shares on a daily basis. Instead, investors can buy or sell
+                shares from other investors in the secondary market, and the
+                price of the shares may trade at a premium or discount to the
+                net asset value.
+              </span>
+              <br />
+              <br />
+              <span>
+                Exchange-traded funds (ETFs) are a type of fund that combines
+                features of both open-end and closed-end funds. Like closed-end
+                funds, ETFs trade on stock exchanges, and their shares can be
+                bought and sold throughout the trading day at market prices.
+                However, similar to open-end funds, ETFs can create and redeem
+                shares to meet investor demand, helping to keep their share
+                prices in line with the net asset value.
+              </span>
+              <br />
+              <br />
+              <span>
+                Investors can participate in funds by buying shares, which
+                represent a proportional ownership interest in the fund's
+                assets. These shares can be purchased either directly from the
+                fund company or through a broker on an exchange. When an
+                investor buys shares, their money is added to the fund's pool of
+                assets. Conversely, when an investor sells shares, they receive
+                the corresponding value based on the current share price.
+              </span>
+              <br />
+              <span>
+                In summary, funds are investment vehicles that enable
+                individuals to pool their money together to create diversified
+                portfolios managed by professionals. These portfolios can
+                consist of various assets, and the objective is to generate a
+                return on investment for the investors. Funds can be structured
+                as open-end funds, closed-end funds, or ETFs, offering investors
+                different options for buying and selling shares. By investing in
+                funds, individuals can access a broader range of investment
+                opportunities and benefit from professional management
+                expertise.&nbsp;
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="introduction-to-funds-feature-card2">
+          <svg viewBox="0 0 1024 1024" class="introduction-to-funds-icon04">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <div class="introduction-to-funds-container3">
+            <h2 class="introduction-to-funds-text042">
+              ​Involved Parties in a Fund
+            </h2>
+            <span class="introduction-to-funds-text043">
+              <span>
+                The fund industry comprises several key participants who play
+                different roles in the creation, management, distribution, and
+                regulation of investment funds.
+              </span>
+              <br />
+              <br />
+              <br />
+              <span class="introduction-to-funds-text048">Fund issuers</span>
+              <span>
+                - Typically asset management companies or financial institutions
+                responsible for creating and managing investment funds. They
+                design the fund's investment strategy, select the underlying
+                assets, and handle the day-to-day operations of the fund. These
+                issuers make decisions on portfolio composition, asset
+                allocation, and investment tactics based on the fund's
+                objectives. Examples of fund issuers include companies like
+                BlackRock, Vanguard, and Fidelity Investments, which offer a
+                wide range of investment funds catering to different investor
+                needs. Investors can range from individual retail investors to
+                pension funds, endowments, and insurance companies.
+              </span>
+              <br />
+              <br />
+              <span class="introduction-to-funds-text052">Investors</span>
+              <span>
+                - Individuals or institutions that provide the capital invested
+                in the fund. Investors have various objectives, such as
+                diversification, income generation, capital appreciation, or a
+                combination of these. They buy shares in the fund, effectively
+                becoming shareholders and participating in the fund's
+                performance. Investors can enter or exit a fund by buying or
+                selling fund shares, and they may receive periodic distributions
+                such as dividends, capital gains, or interest payments from the
+                fund.
+              </span>
+              <br />
+              <br />
+              <span class="introduction-to-funds-text056">
+                Fund administrators
+              </span>
+              <span>
+                - Third-party service providers that handle the operational
+                tasks of the fund. They ensure accurate accounting, reporting,
+                and compliance with regulatory requirements. Fund administrators
+                manage the fund's books and records, calculate net asset value
+                (NAV), prepare financial statements, and provide timely reports
+                to investors. They play a crucial role in maintaining
+                transparency and operational efficiency for the fund. Fund
+                administrators such as State Street Corporation and Northern
+                Trust provide back-office services to funds, ensuring accurate
+                record-keeping and reporting.
+              </span>
+              <br />
+              <br />
+              <span class="introduction-to-funds-text060">Distributors</span>
+              <span>
+                - Firms involved in marketing and selling fund shares to
+                investors. They may operate directly or through intermediaries
+                like financial advisors, banks, or online platforms.
+                Distributors help investors understand the features, risks, and
+                potential benefits of different funds. They may provide
+                educational materials, support, and guidance to investors to
+                help them make informed investment decisions. Distributors may
+                include firms like Charles Schwab or TD Ameritrade that offer
+                online platforms for buying and selling fund shares.
+              </span>
+              <br />
+              <br />
+              <span class="introduction-to-funds-text064">Regulators</span>
+              <span>
+                - Government agencies responsible for overseeing the fund
+                industry and ensuring compliance with laws and regulations. They
+                establish rules and standards for fund issuers, distributors,
+                and administrators to safeguard investor interests and maintain
+                market integrity. Regulators monitor the fund industry, conduct
+                examinations, and enforce compliance to protect investors from
+                fraudulent activities and ensure fair practises. Regulators can
+                vary by jurisdiction but may include agencies like the U.S.
+                Securities and Exchange Commission (SEC) or the Financial
+                Conduct Authority (FCA) in the United Kingdom.
+              </span>
+              <br />
+            </span>
+          </div>
+        </div>
+        <div class="introduction-to-funds-feature-card3">
+          <svg viewBox="0 0 1024 1024" class="introduction-to-funds-icon06">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <div class="introduction-to-funds-container4">
+            <h2 class="introduction-to-funds-text067">Inception Stage</h2>
+            <div class="introduction-to-funds-container5">
+              <h1 class="introduction-to-funds-text068">
+                Fund Creation and Legal Structure
+              </h1>
+              <span>
+                <span>
+                  The inception stage marks the birth of a fund and involves
+                  critical decisions regarding its structure and legal
+                  framework.
+                </span>
+                <br />
+                <span></span>
+                <br />
+                <br />
+                <span>Here's a detailed look at the key aspects:</span>
+                <br />
+                <span class="introduction-to-funds-text077">
+                  Fund Entity Establishment:
+                </span>
+                <span>
+                  Before a fund can operate, it must be legally established.
+                  This typically involves setting up an entity, such as a mutual
+                  fund, exchange-traded fund (ETF), hedge fund, or private
+                  equity fund. The choice of entity impacts taxation, regulatory
+                  oversight, and fund structure.
+                </span>
+                <br />
+                <br />
+                <span>
+                  Legal Structure Selection: Fund managers must carefully choose
+                  the legal structure that best aligns with their objectives and
+                  investor base. Common structures include open-end funds,
+                  closed-end funds, and unit investment trusts. The choice
+                  influences liquidity, trading, and governance.Documentation
+                  and Bylaws: Creating the legal framework for the fund involves
+                  drafting the fund's governing documents and bylaws. These
+                  documents outline the fund's purpose, rules, investment
+                  strategies, and operating procedures. They provide the legal
+                  foundation for the fund's operations.Regulatory Compliance:
+                  During the fund creation process, it is essential to comply
+                  with local and international regulations. This includes
+                  registering with relevant regulatory authorities, such as the
+                  U.S. Securities and Exchange Commission (SEC) for U.S.-based
+                  funds, and adhering to the rules and guidelines specific to
+                  the fund type and jurisdiction.
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="introduction-to-funds-feature-card4">
+          <div class="introduction-to-funds-container6">
+            <svg viewBox="0 0 1024 1024" class="introduction-to-funds-icon08">
+              <path
+                d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+              ></path>
+            </svg>
+          </div>
+          <span class="introduction-to-funds-text082">
+            <br class="introduction-to-funds-text083" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text089">
+              Fund Documentation and Offering
+            </span>
+            <br class="introduction-to-funds-text090" />
+            <br />
+            <span>
+              Once the fund entity is established and the legal structure is in
+              place, the next step is to create the fund documentation and offer
+              the investment opportunity to potential investors:
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text097">
+              Prospectus Preparation
+            </span>
+            <span>
+              : The prospectus is a comprehensive document that provides
+              detailed information about the fund. It includes investment
+              objectives, strategies, risks, fees, historical performance, and
+              legal terms. The prospectus is a crucial resource for investors to
+              make informed decisions.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text103">
+              Offering to Potential Investors
+            </span>
+            <span>
+              : Fund managers initiate the process of attracting investors by
+              offering shares or units of the fund. This offering typically
+              includes a subscription process where investors can purchase
+              shares and become shareholders of the fund.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text109">
+              Sales and Marketing Materials
+            </span>
+            <span>
+              : In addition to the prospectus, marketing materials are created
+              to promote the fund to potential investors. These materials may
+              include brochures, presentations, and digital marketing campaigns,
+              all designed to articulate the fund's value proposition.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text115">
+              Compliance with Marketing Regulations
+            </span>
+            <span>
+              : It is imperative to comply with marketing and advertising
+              regulations, which vary by jurisdiction. Fund managers need to
+              ensure that their marketing materials are accurate, not
+              misleading, and adhere to legal requirements.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text121">
+              Capital Raising Stage
+            </span>
+            <br class="introduction-to-funds-text122" />
+            <br />
+            <span>
+              The capital raising stage is where fund managers actively seek
+              investors and manage their subscriptions and redemptions. This
+              stage is crucial for the growth and sustainability of the fund.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text129">
+              Marketing and Distribution
+            </span>
+            <br class="introduction-to-funds-text130" />
+            <br />
+            <span class="introduction-to-funds-text132">Fund Promotion</span>
+            <span>
+              : Effective marketing is essential to attract investors. Marketing
+              efforts may include presenting the fund's historical performance,
+              unique selling points, and the expertise of the fund management
+              team.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text138">
+              Distribution Channels
+            </span>
+            <span>
+              : Fund managers need to identify appropriate distribution channels
+              to reach their target audience. This can involve working with
+              financial advisors, broker-dealers, or directly marketing to
+              individual investors.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text144">
+              Regulatory Considerations
+            </span>
+            <span>
+              : Marketing and distribution activities should comply with
+              regulations specific to the fund and its jurisdiction.
+              Understanding the regulatory landscape is vital to avoid legal
+              issues.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text150">
+              Subscription and Redemption
+            </span>
+            <br class="introduction-to-funds-text151" />
+            <br />
+            <span class="introduction-to-funds-text153">
+              Investor Subscriptions
+            </span>
+            <span>
+              : During this stage, investors subscribe to the fund by purchasing
+              shares or units. Subscription processes may vary, and some funds
+              offer both periodic subscriptions and continuous subscriptions,
+              allowing investors to enter or exit at their convenience.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text159">Redemptions</span>
+            <span>
+              : Redemptions are requests from investors to sell their shares or
+              units in the fund. Managing redemptions, especially in open-end
+              funds, requires maintaining liquidity and ensuring that redemption
+              requests are fulfilled in accordance with the fund's rules.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text165">
+              Subscription and Redemption Pricing
+            </span>
+            <span>
+              : Pricing shares for new subscriptions and redemptions is a
+              complex process that depends on the fund's net asset value (NAV)
+              and the timing of the transaction.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text171">
+              Investment and Portfolio Management
+            </span>
+            <br class="introduction-to-funds-text172" />
+            <br />
+            <span class="introduction-to-funds-text174">Asset Allocation</span>
+            <br class="introduction-to-funds-text175" />
+            <br />
+            <span class="introduction-to-funds-text177">
+              Strategic Asset Allocation
+            </span>
+            <span>
+              : In this stage, fund managers decide on the long-term allocation
+              of the fund's assets among different asset classes, such as
+              equities, fixed income, real estate, and alternative investments.
+              The goal is to align the fund's allocation with its objectives and
+              risk tolerance.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text183">
+              Tactical Asset Allocation
+            </span>
+            <span>
+              : Fund managers may also make tactical shifts in response to
+              changing market conditions or opportunities within asset classes.
+              This involves periodic rebalancing to maintain the desired
+              risk-return profile.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text189">
+              Investment Strategy
+            </span>
+            <br class="introduction-to-funds-text190" />
+            <br />
+            <span class="introduction-to-funds-text192">
+              Defining the Investment Approach
+            </span>
+            <span>
+              : Fund managers must articulate the fund's investment approach,
+              which could be passive indexing, active management, quantitative
+              strategies, or alternative investment strategies. This decision
+              impacts how the fund's assets are managed and can affect
+              performance and fees.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text198">
+              Portfolio Construction
+            </span>
+            <span>
+              : Fund managers construct the fund's portfolio by selecting
+              specific securities or assets that align with the chosen
+              investment strategy. Diversification, risk management, and
+              performance targets are critical considerations.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text204">
+              Reporting and Compliance
+            </span>
+            <br class="introduction-to-funds-text205" />
+            <br />
+            <span class="introduction-to-funds-text207">
+              Regulatory Filings
+            </span>
+            <br class="introduction-to-funds-text208" />
+            <br />
+            <span class="introduction-to-funds-text210">Legal Obligations</span>
+            <span>
+              : Fund managers must adhere to regulatory requirements for
+              periodic reporting, which typically includes disclosures of fund
+              holdings, performance, fees, and other relevant information.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text216">Form Filing</span>
+            <span>
+              : In the United States, mutual funds must file Form N-1A with the
+              SEC, while other funds have different filing requirements. These
+              filings ensure transparency and regulatory compliance.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text222">
+              Periodic Reporting to Investors
+            </span>
+            <br class="introduction-to-funds-text223" />
+            <br />
+            <span class="introduction-to-funds-text225">
+              Investor Communication
+            </span>
+            <span>
+              : Fund managers provide regular reports to investors, offering
+              insights into the fund's performance, portfolio holdings, and
+              changes in its strategies. This helps investors make informed
+              decisions about their investments.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text231">
+              Performance Measurement
+            </span>
+            <span>
+              : Assessing the fund's performance against its benchmark and
+              objectives is a critical aspect of reporting. Metrics such as
+              total return, risk-adjusted performance, and attribution analysis
+              are commonly used.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text237">Liquidation Stage</span>
+            <br class="introduction-to-funds-text238" />
+            <br />
+            <span class="introduction-to-funds-text240">
+              Reasons for Liquidation
+            </span>
+            <br class="introduction-to-funds-text241" />
+            <br />
+            <span class="introduction-to-funds-text243">Poor Performance</span>
+            <span>
+              : If a fund consistently underperforms and fails to meet its
+              investment objectives, fund managers may choose to liquidate the
+              fund to protect investors from further losses.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text249">
+              Achievement of Objectives
+            </span>
+            <span>
+              : In some cases, funds have specific objectives, such as reaching
+              a certain size, duration, or investment goal. Once these
+              objectives are met, fund managers may opt to liquidate the fund.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text255">
+              Regulatory or Legal Changes
+            </span>
+            <span>
+              : Changes in regulations or tax laws may prompt fund managers to
+              liquidate a fund, especially if it no longer aligns with the new
+              regulatory landscape.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text261">
+              Distribution of Proceeds
+            </span>
+            <br class="introduction-to-funds-text262" />
+            <br />
+            <span class="introduction-to-funds-text264">Asset Liquidation</span>
+            <span>
+              : Upon deciding to liquidate the fund, the fund manager initiates
+              the process of selling the fund's assets. This can be a complex
+              process, and it's crucial to maximize the value of the assets.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="introduction-to-funds-text270">
+              Proceeds Distribution
+            </span>
+            <span>
+              : After selling the assets, the fund distributes the proceeds to
+              shareholders. The distribution may involve one-time payments or
+              periodic payouts, depending on the fund's structure and terms.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span>
+              In conclusion, understanding the inception and life cycle stages
+              of a fund is essential for fund managers and investors alike.
+              Effective fund creation, management, reporting, and, when
+              necessary, liquidation are critical components in delivering value
+              to investors and achieving fund objectives. Fund managers must
+              navigate these stages carefully to ensure regulatory compliance,
+              transparency, and investor trust.
+            </span>
+          </span>
+          <div class="introduction-to-funds-container7">
+            <div class="introduction-to-funds-container8"></div>
+          </div>
+        </div>
+        <footer class="footer-footer footer-root-class-name1">
+          <img
+            alt="image"
+            src="public/external/edi%20logo%20small-1500h-200h.png"
+            class="footer-image"
+          />
+          <span class="footer-text">
+            <span class="footer-text01">© 2023 All Rights Reserved.</span>
+            <br />
+            <br class="footer-text03" />
+            <span class="footer-text04">
+              Exchange Data International Limited
+            </span>
+            <br />
+            <br class="footer-text06" />
+            <span class="footer-text07">
+              Company Registered in England &amp; Wales no. 2941372
+            </span>
+            <br />
+            <br class="footer-text09" />
+            <span class="footer-text10">
+              Registered for VAT no. 654 0819 34
+            </span>
+            <br />
+            <br class="footer-text12" />
+            <span class="footer-text13">
+              Registered Address: 5 Highgate Road, London NW5 1JY
+            </span>
+          </span>
+          <div class="footer-icon-group">
+            <a
+              href="https://twitter.com/exchangedata"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="footer-link"
+            >
+              <svg viewBox="0 0 950.8571428571428 1024" class="footer-icon">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/exchange-data-international/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="footer-link1"
+            >
+              <svg viewBox="0 0 877.7142857142857 1024" class="footer-icon2">
+                <path
+                  d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

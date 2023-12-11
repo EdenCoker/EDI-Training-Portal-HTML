@@ -1,0 +1,22 @@
+.component2-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component2-textinput {
+  width: 155px;
+  height: 31px;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+@media(max-width: 479px) {
+  .component2-textinput {
+    width: 20%;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+}
